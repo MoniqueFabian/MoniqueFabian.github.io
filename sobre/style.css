@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background: #efedae;
+}
+
+.header{
+  background: #FED4E8;
+  height: 124px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.logo-header{
+  height: 100px;
+  width: 200px;
+  margin-left: 10%;
+  margin-top: 24px;
+  transition: all 0.2s ease-in-out;
+}
+.logo-header:hover{
+  opacity: 0.8;
+  transform: rotate(5deg)
+}.logo-header:active{
+  opacity: 0.3;
+  transform: rotate(5deg)
+}
+.button-align {
+    text-align: right;
+    right: 0;
+    margin-right: 10%;
+    position: absolute;
+    top: 40px;
+}
+.button-header {
+  background: rgb(255, 194, 223);
+  font-size: 34px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  padding: 7px;
+  text-decoration: none;
+}
+.button-header:hover{
+  background: rgb(255, 184, 213);
+  padding: 10px;
+  margin: 7px;
+}
+
+.title{
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  color: #140014;
+  display: block;
+}
+.text{
+  font-size: 35px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #000000;
+  display: block;
+}
+.animal-align-neco{
+  margin-top: 30px;
+  margin-left: 20%;
+  display: inline-block;
+  right: 0;
+}
+.img{
+  border-radius: 30px;
+  display: block;
+}
+.animal{
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.animal-align-shaki{
+  margin-top: 30px;
+  margin-left: 30%;
+  display: inline-block;
+  left: 0;
+}

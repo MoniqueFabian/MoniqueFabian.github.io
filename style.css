@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  background: #FED4E8;
+  text-align: center;
+}
+.logo-header{
+  height: 250px;
+  width: 500px;
+  transition: all 0.2s ease-in-out;
+}
+.logo-header:hover{
+  opacity: 0.8;
+}
+.logo-header:active{
+  opacity: 0.3;
+}
+.button-align{
+  margin-top: 10px;
+  display: block;
+}
+.button-header {
+  background: rgb(255, 194, 223);
+  font-size: 34px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  padding: 7px;
+  text-decoration: none;
+}
+.button-header:hover{
+  background: rgb(255, 184, 213);
+  padding: 10px;
+  margin: 7px;
+}
+
+.all{
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textolegal{
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
